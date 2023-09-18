@@ -1,0 +1,9 @@
+.header {
+  display: flex;
+  border: solid black;
+  min-height: 40px;
+}
+
+.header span {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

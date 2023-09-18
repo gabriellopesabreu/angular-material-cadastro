@@ -1,0 +1,80 @@
+<mat-card>
+  <mat-card-title>Excluir Cadastro</mat-card-title>
+  <form>
+    <mat-form-field>
+      <input matInput placeholder="Nome" [value]="cadastro.name" name="name" disabled />
+    </mat-form-field>
+    <mat-form-field>
+      <input
+        matInput
+        placeholder="CPF ou CNPJ"
+        [value]="cadastro.registro"
+        name="registro"
+        disabled
+      />
+    </mat-form-field>
+    <mat-form-field>
+      <input
+        matInput
+        placeholder="Nome da Fazenda"
+        [value]="cadastro.nameFarm"
+        name="nameFarm"
+        disabled
+      />
+    </mat-form-field>
+    <mat-form-field>
+      <input
+        matInput
+        placeholder="Cidade"
+        [value]="cadastro.city"
+        name="city"
+        disabled
+      />
+    </mat-form-field>
+    <mat-form-field>
+      <input
+        matInput
+        placeholder="Estado"
+        [value]="cadastro.state"
+        name="state"
+        disabled
+      />
+    </mat-form-field>
+    <mat-form-field>
+      <input
+        matInput
+        placeholder="Area Total"
+        [value]="cadastro.aTotal"
+        name="aTotal"
+        disabled
+      />
+    </mat-form-field>
+    <mat-form-field>
+      <input
+        matInput
+        placeholder="Area de Vegetacao"
+        [value]="cadastro.aVeg"
+        name="aVeg"
+        disabled
+      />
+    </mat-form-field>
+    <mat-form-field>
+      <input
+        matInput
+        placeholder="Culturas"
+        [value]="cadastro.cultures"
+        name="cultures"
+        disabled
+      />
+    </mat-form-field>
+  </form>
+
+  <div class="actions">
+    <button mat-raised-butttom (click)="deleteCadastro()" color="red">
+      Excluir
+    </button>
+    <button mat-raised-butttom (click)="cancel()" color="primary">
+      Cancelar
+    </button>
+  </div>
+</mat-card>

@@ -1,0 +1,11 @@
+.footer {
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  justify-content: flex-end;
+  min-height: 30px;
+}
+
+.footer span {
+  font-size: small;
+}

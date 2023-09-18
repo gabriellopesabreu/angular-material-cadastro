@@ -1,0 +1,79 @@
+<mat-card>
+    <mat-card-title>Alterar de Cadastro</mat-card-title>
+    <form>
+      <mat-form-field>
+        <input
+          matInput
+          placeholder="Nome"
+          [(ngModel)]="cadastro.name"
+          name="name"
+        />
+      </mat-form-field>
+      <mat-form-field>
+        <input
+          matInput
+          placeholder="CPF ou CNPJ"
+          [(ngModel)]="cadastro.registro"
+          name="registro"
+        />
+      </mat-form-field>
+      <mat-form-field>
+        <input
+          matInput
+          placeholder="Nome da Fazenda"
+          [(ngModel)]="cadastro.nameFarm"
+          name="nameFarm"
+        />
+      </mat-form-field>
+      <mat-form-field>
+        <input
+          matInput
+          placeholder="Cidade"
+          [(ngModel)]="cadastro.city"
+          name="city"
+        />
+      </mat-form-field>
+      <mat-form-field>
+        <input
+          matInput
+          placeholder="Estado"
+          [(ngModel)]="cadastro.state"
+          name="state"
+        />
+      </mat-form-field>
+      <mat-form-field>
+        <input
+          matInput
+          placeholder="Area Total"
+          [(ngModel)]="cadastro.aTotal"
+          name="aTotal"
+        />
+      </mat-form-field>
+      <mat-form-field>
+        <input
+          matInput
+          placeholder="Area de Vegetacao"
+          [(ngModel)]="cadastro.aVeg"
+          name="aVeg"
+        />
+      </mat-form-field>
+      <mat-form-field>
+        <input
+          matInput
+          placeholder="Culturas"
+          [(ngModel)]="cadastro.cultures"
+          name="cultures"
+        />
+      </mat-form-field>
+    </form>
+  
+    <div class="actions">
+      <button mat-raised-butttom (click)="updateCadastro()" color= "red">
+      Atualizar
+    </button>
+    <button mat-raised-butttom (click)="cancel()" color="primary">
+      Cancelar
+    </button>
+    </div>
+  </mat-card>
+  

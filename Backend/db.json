@@ -9,30 +9,6 @@
       "state": "Sao Paulo",
       "aTotal": 32,
       "cultures": "Milho"
-    },
-    {
-      "name": "Gabriel",
-      "registro": "jjj",
-      "nameFarm": "",
-      "city": "",
-      "state": "",
-      "aTotal": "50.21",
-      "aAgri": "20",
-      "aVeg": "22",
-      "cultures": "",
-      "id": 2
-    },
-    {
-      "name": "Gabriel",
-      "registro": "gh",
-      "nameFarm": "",
-      "city": "",
-      "state": "",
-      "aTotal": "20",
-      "aAgri": "4",
-      "aVeg": "10",
-      "cultures": "",
-      "id": 3
     }
   ]
 }
